@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Assets/scripts/jquery-3.6.4.min.js"></script>
+    <style>
+        .answerTitle{
+            font-size: 26pt;
+            height: 50px;
+            text-align: center;
+        }
+        .panel{
+            background-color: aquamarine;
+            padding: 26px;
+            display: none;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="answerTitle">IPARD programı nedir?</div>
+    <div class="panel">
+        <p>IPARD, Avrupa Birliği (AB) tarafından aday ve potansiyel aday ülkelere destek olmak amacıyla oluşturulan, Katılım Öncesi Yardım Aracı’nın (Instrument for Pre-Accession Assistance-IPA) Kırsal Kalkınma bileşenidir.</p>
+    </div>
+    <div class="answerTitle">IPARD kapsamındaki desteklerin niteliği nedir? Destekler karşılıksız mıdır?</div>
+    <div class="panel">
+        <p>IPARD kapsamındaki mali destekler karşılıksız olmakla birlikte şartlı ve mükellefiyetlidir. Şöyle ki destekleme kararı alındıktan sonra imzalanacak sözleşmelerde belirtilen hususlara uyulması durumunda destekler karşılıksız yani geri ödemesiz olarak verilecektir. Sözleşme hükümlerinin ihlali durumlarında ise sağlanmış mali desteklerin varsa gecikme zammı ile birlikte geri alımı söz konusudur.
+    </p>
+</div>
+<div class="answerTitle">Başvurular hangi tarihler arasında kabul edilecektir?</div>
+    <div class="panel">
+        <p>Başvurular, Başvuru Çağrı İlanında belirtilen tarihler arasında ilgili İl Koordinatörlüklerinde kabul edilecektir. Başvuru paketlerinin teslimi için son tarih ve saat, ilgili “Başvuru Çağrı İlanı”nda belirtilmektedir. Son teslim tarihinden sonra yapılacak başvurular değerlendirmeye alınmayacaktır.
+    </p>
+</div>
+<div class="answerTitle">Başvurular nerelere yapılacaktır?</div>
+    <div class="panel">
+        <p>IPARD Programı kapsamında proje başvurusunda bulunacak olan başvuru sahipleri proje başvurularını yatırımı uygulayacakları İlde yer alan TKDK İl Koordinatörlüğüne yapmak zorundadır. Yatırımın uygulanacağı İl dışında başka bir ile yapılan başvurular geçersiz sayılacaktır. Ayrıca TKDK Merkezine yapılacak başvurular kesinlikle kabul edilmeyecektir. Posta, faks, elektronik posta ya da diğer yöntemlerle gönderilen ya da başka adreslere teslim edilen başvurular kabul edilmeyecektir.
+    </p>
+</div>
+<div class="answerTitle">LEADER Yaklaşımı nedir?</div>
+    <div class="panel">
+        <p>LEADER yaklaşımı, kırsal alanlar için sürdürülebilir kalkınma stratejilerinin hazırlanması ve uygulanmasında yerel katılım ve ortaklığı teşvik etmek sureti ile kırsal politikaları geliştirmek için çok değerli bir kaynak olduğu kanıtlanmış bir yaklaşımdır. Bu yaklaşım, kırsal sorunlar için yenilikçi çözümler üretilmesini teşvik etmekte ve yerel toplulukların ihtiyaçlarını karşılamak için önemli bir görev üstlenmektedir. Aynı zamanda yerel aktörlerin kendi bölgelerinde uygulanacak projeler ve gerçekleştirilecek strateji ile ilgili olarak karar alma süreçlerine katılmaları anlamına gelmektedir.
+    </p>
+</div>
+<div class="answerTitle">Yerel Kalkınma Stratejisi (YKS) nedir?</div>
+    <div class="panel">
+        <p>Yerel kalkınma stratejisi belirli bir alanın entegre ve çok sektrölü bir şekilde kalkınmasını amaçlayan, belirli ana öncelikler altında tanımlanmış faaliyet ve öncelikler dizisidir
+    </p>
+</div>
+<script>
+    $(document).ready(function(){
+        $(".answerTitle").click(function(){
+            $(this).next().slideToggle(650);
+        });
+    })
+</script>
+</body>
+</html>
